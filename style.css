@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+
+    /* background: linear-gradient( to top right, rgb(0, 119, 255),rgb(69, 160, 245) ); */
+
+    background: linear-gradient(to right top, #25a8ff, #8f17ff);
+
+    font-family:  'Poppins', sans-serif;
+    
+    
+}
+
+.container{
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.267),
+    rgba(255, 255, 255, 0.753)
+  );
+    backdrop-filter: blur(2rem);
+    border: 1px solid black;
+    border-radius: 20px;
+
+    padding:30px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+     
+
+}
+
+.row{
+
+    display:flex;
+}
+
+button{
+
+    font-weight: 600;
+    border: 1px solid;
+    padding:5px;
+    display:flex;
+    flex-grow: 1;
+    margin-left:5px;
+    margin-top: 7PX;
+    
+
+    align-items:center;
+    justify-content:center;
+
+    background:rgba(255, 255, 255, 0.6);
+    border : none;
+    border-radius: 10px;
+
+    height: 45px;
+    width: 30px;
+}
+
+
+
+.fa, .material-icons ,.btn-digits, .btn-return{
+    color:white;
+    font-weight: 400;
+}
+.fa-microphone{
+    color:black;
+}
+
+.btn-up{
+    flex-grow: 2;
+    margin-right: 30px;
+}
+
+.btn-back{
+    flex-grow:2;
+    margin-left: 30px;
+}
+
+.btn-up , .btn-back, .btn-digits, .btn-language , .btn-return {
+    background-color: rgb(112, 108, 108);
+}
+
+.btn-digits , .btn-space{
+    flex-grow: 2;
+}
+
+.btn-return{
+    flex-grow: 3;
+}
